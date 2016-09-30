@@ -1,2 +1,4 @@
-# americanassocaitionofbusinessess.com
-a joke that went too far
+# americanassociationofbusinesses.com
+a joke that went too far and now is a website.
+
+(link)[americanassociationofbusinesses.com]
