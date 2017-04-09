@@ -1,0 +1,119 @@
+
+/* General */
+html {
+  background-color: black;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(./bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  min-height: 100vh;
+}
+.allcenter {
+  text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.content {
+  text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: left;
+  min-height: 50vh;
+  font-size: 12px;
+}
+
+/* Grid and stuff */
+.grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+  margin: 8px 0 8px 0;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    display: block;
+  }
+}
+
+/* Huge space */
+.gap {
+  height: 100px;
+
+}
+.chasm {
+  height: 33px;
+  text-align: left;
+}
+.compass {
+  text-align: right;
+}
+.legendarium {
+  text-align: left;
+}
+
+
+
+/* Text elements */
+.title {
+  font-size: 48px;
+  letter-spacing: 12px;
+}
+.sub-title {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: justify;
+  w3
+}
+.sub-title-l {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+.sub-title-c {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.sub-title-r {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: right;
+}
+ .navigation {
+   text-align: left;
+ }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Effects */
+
+.unhide {
+  opacity: 0;
+}
+
+.hide {
+  opacity: 1;
+}
+
+@keyframes w3-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+.w3-animate-fading{-webkit-animation:fading 5s infinite;animation:fading 5s infinite}
+@-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
